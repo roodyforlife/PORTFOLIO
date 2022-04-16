@@ -8,10 +8,16 @@
     color: #777;
 }
 
+
 .content__container {
     font-weight: 500;
     overflow: hidden;
     height: 29px;
+    transform: translate(0px, 120%);
+    transition: all 0.8s ease 0s;
+}
+.content__container._active{
+transform: translate(0px, 0px);
 }
 
 .content__container__text {
